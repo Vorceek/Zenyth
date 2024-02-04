@@ -125,6 +125,10 @@ main {
     text-align: center;
 }
 
+.contatos h1 {
+    padding-left: 20px;
+}
+
 .contatos h1:hover {
     color: #4da3e9;
 }
