@@ -101,6 +101,65 @@ html {
 
 }
 
+/* SECTION SHOPEE AMAZON CURSOS EBOOKS */
+
+.section_container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    background-color: #EBEBEB;
+    border: 2px solid black;
+    height: 150px;
+}
+
+.section_container img {
+    height: 70px;
+    width: 70px;
+}
+
+.section_nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 130px;
+    width: 120px;
+}
+
+.section_nav:hover {
+    border-bottom-color: #4da3e9;
+    border-bottom-width: 10px;
+}
+
+.superior__item:hover {
+    color: #4da3e9;
+}
+
+.superior__item {
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+    padding-top: 10px;
+}
+
+/* MEDIA SECTION SHOPEE AMAZON CURSOS EBOOKS */
+
+@media screen and (max-width: 768px) {
+    .section_container {
+        gap: 6px;
+    }
+    
+    .superior__item {
+        font-size: 16px;
+        padding-top: 15px;
+    }
+}
+
+/* MAIN */
+
 main {
     height: 150vh;
 }
